@@ -1,0 +1,24 @@
+{
+  "name": "client",
+  "version": "0.0.0",
+  "homepage": "https://github.com/heroku/node-js-getting-started",
+  "authors": [
+    "Markus Loupeen <mal@capra.me>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "bootstrap-sass": "~3.3.3",
+    "font-awesome": "~4.3.0"
+  }
+}
