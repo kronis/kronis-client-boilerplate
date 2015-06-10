@@ -1,51 +1,51 @@
 {
-    "name": "kronis-client-boilerplate",
-    "version": "0.0.1",
-    "description": "A simple boilerplate for JS GUI",
-    "dependencies": {},
-    "engine-strict": true,
-    "engines": {
-        "node": "0.10.x"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/kronis/kronis-client-boilerplate"
-    },
-    "keywords": [
-        "gulp",
-        "react",
-        "react-router",
-        "jquery",
-        "browserify",
-        "twitter bootstrap",
-        "sass",
-        "uglify",
-        "revision",
-        "jshint",
-        "bower"
-    ],
-    "license": "MIT",
-    "devDependencies": {
-        "browser-sync": "^2.2.2",
-        "browserify": "^9.0.3",
-        "gulp": "^3.8.11",
-        "gulp-bower": "0.0.10",
-        "gulp-browatchify": "0.0.0",
-        "gulp-clean": "^0.3.1",
-        "gulp-concat": "^2.5.2",
-        "gulp-jshint": "^1.9.2",
-        "gulp-order": "^1.1.1",
-        "gulp-react": "^3.0.0",
-        "gulp-rev-all": "^0.7.6",
-        "gulp-ruby-sass": "^1.0.0-alpha",
-        "gulp-sourcemaps": "^1.5.0",
-        "gulp-streamify": "0.0.5",
-        "gulp-uglify": "^1.1.0",
-        "jshint-stylish": "^1.0.1",
-        "react": "^0.12.2",
-        "react-router": "^0.12.4",
-        "reactify": "^1.0.0",
-        "run-sequence": "^1.0.2",
-        "vinyl-source-stream": "^1.0.0"
-    }
+  "name": "kronis-client-boilerplate",
+  "version": "0.0.1",
+  "description": "A simple boilerplate for JS GUI",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "engine-strict": true,
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kronis/kronis-client-boilerplate"
+  },
+  "keywords": [
+    "gulp",
+    "react",
+    "jquery",
+    "browserify",
+    "twitter bootstrap",
+    "sass",
+    "uglify",
+    "revision",
+    "jshint",
+    "bower"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.2.2",
+    "browserify": "^9.0.3",
+    "gulp": "^3.8.11",
+    "gulp-bower": "0.0.10",
+    "gulp-browatchify": "0.0.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.5.2",
+    "gulp-jshint": "^1.9.2",
+    "gulp-order": "^1.1.1",
+    "gulp-react": "^3.0.0",
+    "gulp-rev-all": "^0.7.6",
+    "gulp-ruby-sass": "^1.0.0-alpha",
+    "gulp-sourcemaps": "^1.5.0",
+    "gulp-streamify": "0.0.5",
+    "gulp-uglify": "^1.1.0",
+    "jshint-stylish": "^1.0.1",
+    "react": "^0.12.2",
+    "reactify": "^1.0.0",
+    "run-sequence": "^1.0.2",
+    "vinyl-source-stream": "^1.0.0"
+  }
 }

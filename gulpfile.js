@@ -19,7 +19,8 @@ var runSequence = require('run-sequence');
 
 // Run browserify and use reactify transformer
 gulp.task('browserify', function() {
-    gulp.src('./app/scripts/react/router.jsx')
+    //gulp.src('./app/scripts/react/router.jsx')
+    gulp.src('./app/scripts/router.js')
         .pipe(browatchify({
             debug: true,
             transforms: [reactify]
@@ -102,10 +103,16 @@ gulp.task('browser-sync', ['browserify', 'copy'], function() {
 
 // Create a vendor JS file
 gulp.task('vendor', ['copy'], function() {
-    return gulp.src('./app/scripts/lib/**/*.js')
+    return gulp.src([
+            './app/scripts/lib/**/*.js',
+            './bower_components/kronis-router/js/router.js',
+            './node_modules/underscore/underscore-min.js'
+            ])
         .pipe(order([
             "app/scripts/lib/jquery/*.js",
-            "app/scripts/lib/**/*.js"
+            "node_modules/underscore/underscore-min.js",
+            "app/scripts/lib/**/*.js",
+            "bower_components/kronis-router/js/router.js"
         ], {
             base: './'
         }))
